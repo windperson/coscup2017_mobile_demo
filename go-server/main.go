@@ -1,10 +1,11 @@
 package main
 
 import (
-	"golang.org/x/net/context"
-	pb "github.com/windperson/coscup2017-mobile-demo/go-server/proto"
-	"net"
 	"log"
+	"net"
+
+	pb "github.com/windperson/coscup2017_mobile_demo/go-server/proto"
+	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 
